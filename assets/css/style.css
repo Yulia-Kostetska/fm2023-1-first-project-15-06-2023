@@ -55,6 +55,6 @@ article{
   font-size: 16px
 }
 section{
-  text-indent 10px;
   font-weight: 200;
+  text-indent: 5px;
 }
