@@ -1,8 +1,12 @@
 body{
 background-color: rgb(255, 255, 255);
-font-size: 24px;
+font-size: 20px;
 font-family: 'Libre Baskerville', serif;
 }
+header{
+  text-align: center;
+}
+
 div{
   text-align: center;
 }
@@ -10,25 +14,47 @@ img{
   width: 50%;
   border-radius: 70%;
 }
-h1, h2{
-  font-size: 1.5em;
+address{
   text-align: center;
-  font-family: Patua One', cursive;
+  color:gray
 }
-.logo{
+
+h1{
+  font-size: 1.3em;
+  text-align: center;
+  font-family: Patua One', cursive; 
+}
+h2{
+  text-align: left;
+  border-top:  2px black solid;
+  border-bottom: 1px black solid;
+  font-size: 1.2em;
+}
+h3{
+  font-size: 1.2em;
+  text-align: left;
+}
+.Claudia Prentice{
   font-family: 'Caveat', cursive;
   font-weight: 500;
-  font-size: 3em;
-  border-top: 1.5px red solid;
+  font-size: 2em;
 }
 a{
   text-decoration: none;
-  background-color: azure
+  background-color: rgb(255, 255, 255)
 }
 p{
-  font-size: 24px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.3em;
-  text-indent: 20px;
+  line-height: 1.1em;
+  text-indent: 5px;
   text-align: justify;
+
+}
+article{
+  font-size: 16px
+}
+section{
+  text-indent 10px;
+  font-weight: 200;
 }
