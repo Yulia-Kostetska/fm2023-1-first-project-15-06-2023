@@ -1,6 +1,7 @@
 body{
   border: 2px solid red;
   font-size: 24px;
+  color: blue;
 }
 main{
   border: inherit;
@@ -16,4 +17,5 @@ main-article__heading{
 }
 main-article__content{
   font-size: initial;
+  color: blue;
 }
